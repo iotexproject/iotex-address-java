@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 
 /**
- * bech32.
+ * Numeric.
  *
  * @author Yang XuePing
  */

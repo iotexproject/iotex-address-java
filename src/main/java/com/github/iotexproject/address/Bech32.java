@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Locale;
 
 /**
- * bech32.
+ * Bech32.
  *
  * @author Yang XuePing
  */

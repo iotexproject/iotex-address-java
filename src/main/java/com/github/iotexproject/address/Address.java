@@ -1,7 +1,7 @@
 package com.github.iotexproject.address;
 
 /**
- * bech32.
+ * Address.
  *
  * @author Yang XuePing
  */
