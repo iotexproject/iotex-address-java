@@ -23,4 +23,13 @@ public class Address {
         byte[] grouped = Bech32.convertBits(values, 0, values.length, 8, 5, true);
         return Bech32.encode(AddressPrefix, grouped);
     }
+
+    public static Boolean validIo(String address) {
+        try {
+            Bech32.decode(address);
+        } catch (Exception e) {
+            return Boolean.FALSE;
+        }
+        return  Boolean.TRUE;
+    }
 }
